@@ -12,7 +12,7 @@
 - dealine pengumpulan: Kamis 15 Februari 2024
 - Images dan video yang dikumpulkan tidak boleh berupa color pallete 
 - Images dan video yang dikumpulakn tidak boleh sketsa layout ataupun web yang telah selesai. 
-- Minimal halaman utama (Homepage), halaman Detail fasilitas (menu) pada Online Course platform yang buat
+- **Minimal halaman utama (Homepage), halaman Detail fasilitas (menu) pada Online Course platform yang buat**
 - Bonus Points:
     - Responsive Design 
     - lebih dari 1 fasilitas

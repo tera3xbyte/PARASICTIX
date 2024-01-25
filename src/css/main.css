@@ -1,0 +1,43 @@
+@import url("./navbar.css");
+@import url("./section.css");
+
+:root {
+	--shade-1:#DCF2F1;
+	--shade-2:#7FC7D9;
+	--shade-3:#365486;
+	--shade-4:#0F1035;
+	--shade-5:#ffe66b;
+
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+a {
+	color: var(--shade-2);
+	text-decoration: none;
+}
+
+
+
+
+
+h1, p, html, body {
+ margin:0px;
+ padding: 0px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+}
+
+
