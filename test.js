@@ -1,5 +1,14 @@
 let cond = true;
 $(".button").click(function(){
-	document.write("<h1>Hello world</h1>");
+	if ( cond == true ) {
+		$("p").hide();
+		cond = false;
+		alert("hello")
+	} else {
+		$("p").show();
+		cond = true;
+	}
 })
+
+
 

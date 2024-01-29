@@ -1,7 +1,69 @@
-ul, html,body {
+ ul, html,body {
 	margin: 0px;
 	padding: 0px;
 }
+
+body {
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+	img {
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	
+}
+
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	width: 100vw;
+}
+
+
+.box {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	background-color: lightblue ;
+	padding: 10px;
+	
+	border:solid lightblue 5px;
+	box-shadow: 
+	5px 0px 0px black,
+	0px 5px 0px black,
+	-5px 0px 0px black,
+	0px -5px 0px black,
+
+
+	5px 0px 0px white inset,
+	0px 5px 0px white inset,
+	-5px 0px 0px white inset,
+	0px -5px 0px white inset	;
+}
+
+
+h1, p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
 
 
 
