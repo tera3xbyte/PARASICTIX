@@ -1,4 +1,9 @@
 # Notes
+fonts : inconsolata NF, 
+
+
+
+# competition requirements
 - tema = "Shaping The Future of Learning Through Digital Technology"
 - subtema = "Online Course"
 - plugins & libs disediakan oleh panitia
