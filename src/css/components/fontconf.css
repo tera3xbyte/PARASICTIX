@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "DM Sans", sans-serif;
+	src: url(../../../assets/DMSans.ttf);
+}
+
+@font-face {
+	font-family: "Inconsolata", monospace ;
+	src: url('../../../assets/Inconsolata.ttf') format('ttf');
+	font-weight: 800;
+}
