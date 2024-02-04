@@ -1,6 +1,12 @@
 @import url('../components/setup.css');
 @import url('../components/navbar.css');
 @import url('../components/fontconf.css');
+@import url('../components/cards.css');
+@import url('../components/animateClouds.css');
+
+nav {
+	font-family: "Inconsolata";
+}
 
 header {
 	height: 90vh;
@@ -12,34 +18,18 @@ header {
 	align-items: center;
 }
 
+.courses {
+	height: 100vh;
+	width: 100vw;
+	background-color: var(--white);
+}
+
+
 /* other method: doing it manualy*/
 .ditherTransition {
 	width: 100vw;
 }
 
-
-.clouds > * {
-	z-index: 1;
-	position: absolute;
-	height: 200px;
-}
-
-.clouds > img:nth-child(1) {
-	transform: translate(-223px, 445px);
-}
-
-.clouds > img:nth-child(2) {
-	transform: translate(230px, 120px);
-}
-.clouds > img:nth-child(3) {
-	transform: translate(934px, 144px);
-}
-.clouds > img:nth-child(4) {
-	transform: translate(623px, 334px);
-}
-.clouds > img:nth-child(5) {
-	transform: translate(1082px, 524px);
-}
 
 .greet {
 	z-index: 3;
@@ -50,9 +40,9 @@ header {
 }
 
 .greet > * {
-	font-weight: 600;
 	font-size: 54px;
 	text-align: center;
+	font-family: "Inconsolata";
 }
 
 .greet > h2 {
@@ -67,7 +57,23 @@ header {
 	font-size: 23px;
 	padding: 2px 10px;
 	margin: 20px 0 0 0;
-
 }
+
+.startButton {
+	display: flex;
+	font-family: "Inconsolata", monospace;
+	font-weight: 800;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 23px;
+	background-color: var(--white);
+	height: 40px;
+	width: 100px;
+}
+
+
+
+
 
 

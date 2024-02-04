@@ -5,6 +5,14 @@
 
 @font-face {
 	font-family: "Inconsolata", monospace ;
-	src: url('../../../assets/Inconsolata.ttf') format('ttf');
+	src: url(../../../assets/Inconsolata.ttf) format('ttf');
 	font-weight: 800;
 }
+
+@font-face {
+	font-family: "Silkscreen", sans-serif; 
+	src: url(../../../assets/slkscr.ttf) format('ttf');
+	font-style: unset;
+	font-weight: 100;
+}
+

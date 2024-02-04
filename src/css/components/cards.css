@@ -1,0 +1,27 @@
+.cardContainer {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	overflow-x: scroll;
+	gap: 20px;
+}
+
+.cardContainer > * {
+	height: 300px;
+	width: 350px;
+	background-color: blue;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.cardContainer > li > img {
+	width: 350px;
+}
+
+
+.cardHeader {
+
+}
+
+.cardDescription {
+
+}

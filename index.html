@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="src/css/pages/homepage.css">
-	
+	<script src="./jquery/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 	<title>Catalyst Online Learning Platform</title>
 </head>
 	<body>
 		<nav>
 			<div class="navbar">
 				<div class="flex">
-					<img class="logo" src="./assets/logo.svg" alt="">
-						<p class="companyText">Catalyst.</p>
+						<img class="logo" src="assets/logo.svg" alt="">
+					<p class="companyText">Catalyst.</p>
 				</div>
 				<ul class="flex">
 					<li>Belajar</li>
@@ -37,12 +37,46 @@
 			<div class="greet">
 				<h2>Membentuk  Masa Depan Pembelajaran</h2>
 				<h1>Melalui Teknologi Digital</h1>
-				<a class="pixelBorders pixelShadows">Start</a>
+				<div class="pixelBorders pixelShadows startButton">
+					<a class="">Start</a>
+				</div>
 			</div>
 		</header>
 		<img class="ditherTransition" src="./assets/dither-blue.svg" alt="">
-		<section>
-
+		<section id="courses" class="courses">
+			<div>
+				<div>
+					<h1>Apa yang Kami Ajarkan</h1>
+				</div>
+				<ul class="cardContainer">
+					<li><img src="./assets/cardBackground1.png" alt=""></li>
+					<li><img src="./assets/cardBackground2.png" alt=""></li>
+					<li><img src="./assets/cardBackground3.png" alt=""></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
 		</section>
+		<script type="">
+			$("body").on("contextmenu", function (e) {
+				return false;
+			})  
+			$('img').mousedown(function(e) {
+				e.preventDefault();
+			})
+		</script>
 	</body>
 </html>

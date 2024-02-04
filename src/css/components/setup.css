@@ -17,7 +17,7 @@
 	--base:rgb(30, 30, 46)	;
 	--mantle:rgb(24, 24, 37)	;
 	--crust:rgb(17, 17, 27)	; 
-
+	--white: white;
 }
 
 ul, li, h1, h2 , p, html, body {
@@ -32,7 +32,6 @@ ul, li, h1, h2 , p, html, body {
 
 body {
 	overflow-x: hidden;
-	font-family: "Inconsolata";
 	color: var(--base);
 }
 
