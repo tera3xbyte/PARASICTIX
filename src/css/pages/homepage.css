@@ -3,6 +3,7 @@
 @import url('../components/fontconf.css');
 @import url('../components/cards.css');
 @import url('../components/animateClouds.css');
+@import url('../components/heading.css');
 
 nav {
 	font-family: "Inconsolata";
@@ -18,10 +19,17 @@ header {
 	align-items: center;
 }
 
+.programs {
+	height: 100vh;
+	width: 100vw;
+	background-color: var(--base);
+}
+
+
 .courses {
 	height: 100vh;
 	width: 100vw;
-	background-color: var(--white);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -72,8 +80,21 @@ header {
 	width: 100px;
 }
 
+.heading {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.heading > h1 { 
+	padding: 5px 10px;
+ }
 
 
-
+.ditherTop {
+	transform: rotate(180deg) translateY(-10px);
+}
 
 

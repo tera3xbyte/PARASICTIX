@@ -33,6 +33,10 @@ ul, li, h1, h2 , p, html, body {
 body {
 	overflow-x: hidden;
 	color: var(--base);
+	background-size: 20px 20px;
+	background-image: 
+		linear-gradient(to right, lightgray 1px, transparent 1px),
+		linear-gradient(to bottom, lightgray 1px, transparent 1px);
 }
 
 .flex {
