@@ -1,7 +1,7 @@
 .cardContainer {
 	padding: 10px 40px;
 	display: grid;
-	grid-template-columns: repeat(6,1fr);
+	grid-template-columns: repeat(10,1fr);
 	overflow-x: scroll;
 	gap: 20px;
 }

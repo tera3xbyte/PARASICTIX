@@ -1,3 +1,4 @@
+
 :root {
 	--rosewater:rgb(245, 224, 220)	;
 	--flamingo:rgb(242, 205, 205)	;
@@ -20,13 +21,16 @@
 	--white: white;
 }
 
-ul, li, h1, h2 , p, html, body {
+ul, li, h1, h2 , a, p, html, body {
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
-	font-style: unset;
 	font-size: 23px;
 	list-style: none;
+}
+
+a {
+	color: var(--base);
 }
 
 
@@ -57,6 +61,7 @@ body {
 
 
 .pixelBorders {
+	color: var(--base);
 	background-color: white;
 	padding: 0px 0px;
 	box-shadow: 
