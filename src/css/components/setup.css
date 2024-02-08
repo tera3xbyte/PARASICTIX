@@ -43,6 +43,31 @@ body {
 		linear-gradient(to bottom, lightgray 1px, transparent 1px);
 }
 
+footer {
+	font-family: "Silkscreen";
+	background-color: var(--base);
+	color: var(--yellow);
+	display: flex;
+	height: calc(100vh/4);
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footerLink {
+	color: var(--yellow);
+}
+
+.footerImage {
+	height: 16px;
+}
+
+.footerSeparator {
+	padding-right: 48px;
+	height: 98px;
+	border-right: 5px solid var(--yellow);
+}
+
 .flex {
 	display: flex;
 	flex-flow: row nowrap;
