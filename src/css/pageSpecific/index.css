@@ -1,0 +1,103 @@
+@import url(../components/fontconf.css);
+@import url(../components/setup.css);
+
+nav {
+	background-color: var(--text);
+	width: 100vw;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "DM Sans";
+	font-size: 24px;
+	position: sticky;
+	top: 0;
+	overflow-x: hidden;
+	color: var(--base);
+	z-index: 5;
+}
+
+nav > img {
+	padding: 16px;
+	height: 48px;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	width: 100vw;
+	background-color: var(--text);
+	font-family: "Silkscreen";
+	color: var(--base);
+}
+
+
+header > div > div {
+	margin-top: 1.6rem;
+}
+
+footer {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: var(--base);
+	color: var(--yellow);
+	font-family: "Silkscreen";
+	text-align: center;
+}
+
+footer > * {
+	padding: 12px 0px;
+}
+
+.footerLogo {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	font-family: "DM Sans";
+}
+
+.footerLogo > img {
+	height: 64px;
+	padding: 0px 12px;
+}
+
+.footerSocial {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerSocial > li > a > img {
+	height: 24px;
+	padding: 0px 8px;
+}
+
+
+.screenHeight {
+	height: 100vh;
+	width: 100vw;
+}
+
+.joinus {
+	background-color: var(--yellow);
+}
+
+.programs {
+	background-color: var(--base);
+}
+
+
+
+
+
+

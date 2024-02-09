@@ -1,0 +1,81 @@
+ ul, html,body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+	img {
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	
+}
+
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	width: 100vw;
+	background-color: lightblue;
+}
+
+
+.box {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	background-color: white;
+	padding: 10px;
+	
+	border-top:solid #c3c3c3 5px;
+	border-left:solid #c3c3c3 5px;
+	box-shadow: 
+	5px 0px 0px black,
+	0px 5px 0px black,
+	-5px 0px 0px black,
+	0px -5px 0px black,
+
+	10px 5px 0px white  ,
+	10px -5px 0px white  ,
+	
+	-10px -5px 0px white  ,
+	-10px 5px 0px white  ,
+	
+	5px 10px 0px white  ,
+	-5px 10px 0px white  ,
+	
+	
+	-10px 5px 0px white  ,
+	-10px -5px 0px white  ,
+	
+	-5px -10px 0px white  ,
+	5px -10px 0px white  ;
+}
+
+
+h1, p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+
+

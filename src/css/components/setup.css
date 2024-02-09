@@ -21,63 +21,43 @@
 	--white: white;
 }
 
-ul, li, h1, h2 , a, p, html, body {
+
+ul {
+	list-style: none;
 	margin: 0px;
 	padding: 0px;
-	text-decoration: none;
-	font-size: 23px;
-	list-style: none;
+}
+
+h1, h2 , body {
+	margin: 0px;
+	padding: 0px;
 }
 
 a {
-	color: var(--base);
+	text-decoration: none;
+	color: unset;
 }
 
-
-body {
-	overflow-x: hidden;
-	color: var(--base);
-	background-size: 20px 20px;
-	background-image: 
-		linear-gradient(to right, lightgray 1px, transparent 1px),
-		linear-gradient(to bottom, lightgray 1px, transparent 1px);
-}
-
-footer {
-	font-family: "Silkscreen";
-	background-color: var(--base);
-	color: var(--yellow);
+.centerIt {
 	display: flex;
-	height: calc(100vh/4);
-	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 
-.footerLink {
-	color: var(--yellow);
+
+.ditherTransition {
+	width: 100vw;
+	z-index: 3;
 }
 
-.footerImage {
-	height: 16px;
+
+.ditherTop{
+	margin-top: -8px;
 }
 
-.footerSeparator {
-	padding-right: 48px;
-	height: 98px;
-	border-right: 5px solid var(--yellow);
+.ditherBottom {
+	margin-bottom: -8px;
 }
-
-.flex {
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
-
-.flex > * {
-	padding: 0px 10px;
-}
-
 
 .pixelShadows {
 	border-top: 5px solid #92939e;
@@ -86,9 +66,10 @@ footer {
 
 
 .pixelBorders {
+	margin: 0px 0.8rem;
 	color: var(--base);
 	background-color: white;
-	padding: 0px 0px;
+	padding: 8px 16px;
 	box-shadow: 
 		/* black border*/
 		5px 0px #1e1e2e,

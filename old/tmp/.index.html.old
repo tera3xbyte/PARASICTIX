@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./src/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <h1 class="logo">Catalyst.</h1>
+      </div>
+
+      <ul class="navbar-menu">
+        <li><a href="">Belajar</a></li>
+        <li><a href="">Berkolaborasi</a></li>
+        <li><a href="">Komunitas</a></li>
+      </ul>
+      <ul class="navbar-menu">
+        <li><a href="">Masuk</a></li>
+        <li><a href="" class="daftar">Daftar</a></li>
+      </ul>
+    </nav>
+    <header>
+      
+      <div class="greet">
+        <div>
+          <h1>Shaping the future of learning</h1>
+          <p>Through Digital Technology</p>
+          <form action="./robots.txt" method="POST">
+            <input type="submit"/>
+          </form>
+        </div>
+      </div>
+
+      <ul class="cards">
+        <li class="card">
+          <h3>Python Course</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat nesciunt sint aperiam quidem exercitationem ducimus eveniet, quibusdam placeat maiores optio inventore saepe non quas sapiente doloremque quia accusamus <quo class=":w"></quo></p>
+        </li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+        <li class="card"></li>
+      </ul>
+
+
+    </header>
+    <section>
+         </section>
+    <section></section>
+    <section></section>
+
+
+  </body>
+</html>

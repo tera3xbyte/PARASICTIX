@@ -1,0 +1,123 @@
+
+:root {
+	--rosewater:rgb(245, 224, 220)	;
+	--flamingo:rgb(242, 205, 205)	;
+	--pink:rgb(245, 194, 231)	;
+	--mauve:rgb(203, 166, 247)	;
+	--red:rgb(243, 139, 168)	;
+	--maroon:rgb(235, 160, 172)	;
+	--peach:rgb(250, 179, 135)	;
+	--yellow:rgb(249, 226, 175)	;
+	--green:rgb(166, 227, 161)	;
+	--teal:rgb(148, 226, 213)	;
+	--sky:rgb(137, 220, 235)	;
+	--sapphire:rgb(116, 199, 236)	;
+	--blue:rgb(137, 180, 250)	;
+	--lavender:rgb(180, 190, 254)	;
+	--text:rgb(205, 214, 244)	; 
+	--base:rgb(30, 30, 46)	;
+	--mantle:rgb(24, 24, 37)	;
+	--crust:rgb(17, 17, 27)	; 
+	--white: white;
+}
+
+ul, li, h1, h2 , a, p, html, body {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 23px;
+	list-style: none;
+}
+
+a {
+	color: var(--base);
+}
+
+
+body {
+	overflow-x: hidden;
+	color: var(--base);
+	background-size: 20px 20px;
+	background-image: 
+		linear-gradient(to right, lightgray 1px, transparent 1px),
+		linear-gradient(to bottom, lightgray 1px, transparent 1px);
+}
+
+footer {
+	font-family: "Silkscreen";
+	background-color: var(--base);
+	color: var(--yellow);
+	display: flex;
+	height: calc(100vh/4);
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footerLink {
+	color: var(--yellow);
+}
+
+.footerImage {
+	height: 16px;
+}
+
+.footerSeparator {
+	padding-right: 48px;
+	height: 98px;
+	border-right: 5px solid var(--yellow);
+}
+
+.flex {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.flex > * {
+	padding: 0px 10px;
+}
+
+
+.pixelShadows {
+	border-top: 5px solid #92939e;
+	border-left: 5px solid #92939e;
+}
+
+
+.pixelBorders {
+	color: var(--base);
+	background-color: white;
+	padding: 0px 0px;
+	box-shadow: 
+		/* black border*/
+		5px 0px #1e1e2e,
+		-5px 0px #1e1e2e,
+		
+		0px 5px #1e1e2e,
+		0px 5px #1e1e2e,
+		
+		0px -5px #1e1e2e,
+		0px -5px #1e1e2e,
+
+		10px 0px white,
+		-10px 0px white,
+		0px 10px white,
+		0px -10px white,
+
+		
+		10px 5px white,
+		10px -5px white,
+		-10px 5px white,
+		-10px -5px white,
+		-5px 10px white,
+		5px -10px white,
+		-5px -10px white,
+		5px 10px white
+		;
+
+	}
+
+
+
+
