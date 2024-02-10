@@ -2,7 +2,8 @@
 @import url(../components/setup.css);
 
 nav {
-	background-color: var(--text);
+	background-color: rgba(205, 214, 244, .8);
+	backdrop-filter: blur(16px);
 	width: 100vw;
 	display: flex;
 	flex-flow: row nowrap;
@@ -10,7 +11,7 @@ nav {
 	align-items: center;
 	font-family: "DM Sans";
 	font-size: 24px;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	overflow-x: hidden;
 	color: var(--base);
@@ -27,7 +28,7 @@ header {
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
-	height: 80vh;
+	height: 90vh;
 	width: 100vw;
 	background-color: var(--text);
 	font-family: "Silkscreen";
@@ -40,7 +41,7 @@ header > div > div {
 }
 
 footer {
-	height: 50vh;
+	height: 60vh;
 	width: 100vw;
 	display: flex;
 	flex-flow: column nowrap;
@@ -53,7 +54,7 @@ footer {
 }
 
 footer > * {
-	padding: 12px 0px;
+	padding-top: 12px;
 }
 
 .footerLogo {
@@ -84,16 +85,109 @@ footer > * {
 
 
 .screenHeight {
+	position: relative;
 	height: 100vh;
 	width: 100vw;
 }
 
-.joinus {
-	background-color: var(--yellow);
+.courses {
+	background-size: 20px 20px;
+	background-image: 
+		linear-gradient(to right, lightgray 1px, transparent 1px),
+		linear-gradient(to bottom, lightgray 1px, transparent 1px);
 }
 
+
+.joinus {
+	color: var(--base);
+	background-color: var(--yellow);
+	background-size: 20px 20px;
+	background-image: 
+		linear-gradient(to right, white 1px, transparent 1px),
+		linear-gradient(to bottom, white 1px, transparent 1px);
+	font-family: "DM Mono";
+}
+
+.joinus > div > div {
+	margin-top: 1.6rem;
+}
+
+.joinus > div > div > .pixelBorders {
+	background-color: var(--green);
+}
+
+.joinus > div > h1 {
+	font-size: 36px;
+}
+
+.joinus > div > h2 {
+	font-size: 22px;
+}
+
+
 .programs {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	overflow-x: scroll;
 	background-color: var(--base);
+}
+
+.programs > div {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.6rem;
+	padding: 0px 2rem ;
+}
+
+.programs > div > div {
+	overflow-x: scroll;
+	background-color: var(--yellow);
+	height: 400px;
+	width: 300px;
+	margin: 0px 10px;
+}
+
+
+.about {
+	font-family: "DM Mono";
+	font-weight: 100;
+	display: flex;
+	flex-flow: column; nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--base);
+	color: var(--white);
+}
+
+.about > div {
+	padding: 1.6rem;
+}
+
+.about > div > h1, .about > div > h2 {
+	font-family: "DM Sans";
+
+}
+
+
+.about > div > h1 {
+	font-size: 54px;
+}
+.about > .kesimpulan {
+	text-align: center;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.about > .kesimpulan > p {
+	font-family: "DM Mono";
+	font-style: italic;
+}
+
+.about > h1, .about > h2 {
+	font-family: "DM Sans";
 }
 
 

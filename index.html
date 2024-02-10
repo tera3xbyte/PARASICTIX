@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Catalyst Learning Indonesia</title>
+	<script src="./src/bahan/jquery-3.5.1/jquery-3.5.1.js"></script>
 	<link rel="stylesheet" href="./src/css/pageSpecific/index.css">
 </head>
 <body>
@@ -21,18 +22,60 @@
 			</div>
 		</div>
 	</header>
-	<img style="position: absolute;" class="ditherTransition ditherTop" src="./assets/ditherBottomBlue.svg" alt="">
 	<section class="courses screenHeight">
+		<img class="ditherTransition ditherTop" src="./assets/ditherBottomBlue.svg" alt="">
 		<div>this saparates</div>
+		<img class="ditherTransition ditherBottom" src="./assets/ditherTopBase.svg" alt="">
 	</section>
-	<img class="ditherTransition ditherBottom" src="./assets/ditherTopBase.svg" alt="">
+	
 	<section class="programs screenHeight">	
+		<div>
+			<div class="pixelBorders">
+				<img src="./assets/microsoft.svg" alt="">
+				<p></p>
+			</div>
+			<div class="pixelBorders">
+				<img src="./assets/ibm.svg" alt="">
+				<p></p>
+			</div>
+			<div class="pixelBorders">
+				<img src="./assets/samsung.svg" alt="">
+				<p></p>
+			</div>
+			<div class="pixelBorders">
+				<img src="./assets/prakerja.svg" alt="">
+				<p></p>
+			</div>
+		</div>
 	</section>
-	<img style="position: absolute;" class="ditherTransition ditherTop " src="./assets/ditherBottomBase2.svg" alt="">
-	<section style="position: relative;" class="joinus screenHeight">
-		<div>this separates</div>
-		<img style="position: absolute; bottom: 0;" class="ditherTransition ditherBottom" src="./assets/ditherTopBase2.svg" alt="">
+	
+	<section class="about screenHeight">
+		<div>
+			<h1>Catalyst</h1>
+			<p>/'kætəlist/</p>
+			<p class="ribbonQuote">substance that enables a chemical reaction to proceed at a usually faster rate.</p>
+			<p class="ribbonQuote"> an agent that provokes or significant change or action. </p>
+		</div>
+		<div class="kesimpulan">
+			<h2>Kesimpulannya:</h2>
+			<p>&ldquo;Kami bertekad untuk mempercepat kecakapan digital serta sumber daya manusia Republik Indonesia menuju masa depan yang cerah&rdquo;</p>
+		</div>
 	</section>
+	
+	<section class="joinus screenHeight centerElement">
+		<img  class="ditherTransition ditherTop " src="./assets/ditherBottomBase2.svg" alt="">
+
+		<div>
+			<h1>Level-Up Dirimu <br> Sekarang!</h1>
+			<h2>Gabung dengan Jutaan Pelajar <br> Seluruh Indonesia</h2>
+			<div>
+				<a class="pixelBorders pixelShadows" href="#">Daftar</a>
+			</div>
+		</div>
+
+		<img  class="ditherTransition ditherBottom" src="./assets/ditherTopBase2.svg" alt="">
+	</section>
+
 	<footer>
 		<div class="footerLogo">
 			<img src="./assets/logoTrans.svg" alt="">
@@ -44,7 +87,7 @@
 			<li>Komunitas</li>
 		</ul>
 		<div>
-			PT Catalyst. <br> Learning Indonesia <br> &#169; 2024
+			PT Catalyst. <br> Learning Indonesia <br> &copy; 2024
 		</div>
 		<div>
 			<ul class="footerSocial">
@@ -55,5 +98,13 @@
 			<p>Message Us: <a href="mailto:info@catalyst.or.id">info@catalyst.or.id</a></p>
 		</div>
 	</footer>
+	<script>
+		$("body").on("contextmenu", function (e) {
+				return false;
+			})  
+			$('img').mousedown(function(e) {
+				e.preventDefault();
+			})
+	</script>
 </body>
 </html>
