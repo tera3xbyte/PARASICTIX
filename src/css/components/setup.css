@@ -74,6 +74,8 @@ a {
 	padding: 12px;
 }
 
+
+
 .pixelShadows {
 	border-top: 5px solid #92939e;
 	border-left: 5px solid #92939e;
@@ -82,7 +84,7 @@ a {
 
 .pixelBorders {
 	font-family: "silkscreen";
-	margin: 0px 0.8rem;
+	margin: .6rem;
 	color: var(--base);
 	background-color: white;
 	padding: 8px 16px;
@@ -118,3 +120,13 @@ a {
 
 
 
+.sectionTitle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2rem;
+}
+
+.sectionTitle > .pixelBorders {
+	display: inline-block;
+}

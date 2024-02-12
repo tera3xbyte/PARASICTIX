@@ -95,7 +95,26 @@ footer > * {
 	background-image: 
 		linear-gradient(to right, lightgray 1px, transparent 1px),
 		linear-gradient(to bottom, lightgray 1px, transparent 1px);
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
 }
+
+
+.courseTopic > * {
+	display: inline-block;
+}
+
+.coursesContainer {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
 
 
 .joinus {
@@ -124,30 +143,56 @@ footer > * {
 	font-size: 22px;
 }
 
+/* Programs Section */
+
+
+
 
 .programs {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	overflow-x: scroll;
 	background-color: var(--base);
+	overflow-x: hidden;
 }
 
-.programs > div {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 1.6rem;
-	padding: 0px 2rem ;
+
+.programsList::-webkit-scrollbar {
+	display: none;
 }
 
-.programs > div > div {
+.programsList {
+	place-self: center;
+	justify-content: flex-start;
+	align-items: self-end;
 	overflow-x: scroll;
-	background-color: var(--yellow);
-	height: 400px;
-	width: 300px;
-	margin: 0px 10px;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 1.6rem;
+	padding: 2rem;
 }
 
+.programsList > div {
+	display: grid;
+	grid-template-rows: 8rem 1fr;
+	background-color: var(--yellow);
+	height: 450px;
+	width: 300px;
+	margin: 0px 10px;grid-template-columns: 1fr;
+}
+
+
+.programsList > div > img {
+	height: 48px;
+	place-self: center;
+}
+
+.programsDesc > p{
+	text-align: justify;
+	font-family: "DM Sans";
+	font-weight: 600;
+}
+
+
+/* about section */
 
 .about {
 	font-family: "DM Mono";
