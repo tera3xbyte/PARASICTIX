@@ -1,5 +1,5 @@
 # Notes
-fonts : inconsolata NF, 
+fonts : DM Mono, DM Sans, Dm Serif, Silkscreen
 
 
 
